@@ -79,10 +79,11 @@ This project has three components.
 |- run.py  # Flask file that runs app <br />
 
 - data <br />
-|- disaster_categories.csv  # data to process <br />
-|- disaster_messages.csv  # data to process <br />
+|- disaster_categories.csv  # data provided by Figure Eight company thorugh Udacity <br />
+|- disaster_messages.csv  # data provided by Figure Eight company thorugh Udacity <br />
 |- process_data.py <br />
 |- InsertDatabaseName.db   # database to save clean data to <br />
+
 
 - models <br />
 |- train_classifier.py <br />
